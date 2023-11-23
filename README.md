@@ -14,6 +14,13 @@ In the table, units are in parenthesis, results are listed as `mean ± std`.
 
 ![Benchmarks for rsbids](assets/benchmarks.png)
 
+## Tasks
+
+* Indexing: index the dataset without indexing metadata. I wasn't sure how to do this with `bids2table`, so no results are recorded for that library. 
+* Indexing w/ Metadata: index the dataset including metadata. This means at least simple metadata fields from sidecar json files (e.g. strings, numbers) can be queried to select matching files. I wasn't sure how to do this with `ancpbids`, so no results are recorded for that library
+* Query: On an already indexed dataset (no metadata if possible), select a single subject
+* Large Query: As in query, but select 14 subjects, a single run, and a suffix
+
 ## Running the benchmarks
 
 The above benchmarks were calculated on a CentOS Linux 7 HCP system with `x86_64` architecture, Intel(R) Xeon(R) CPU E5-2683 v4 @ 2.10GHz, and locally mounted SSD drive.
