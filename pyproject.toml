@@ -1,0 +1,25 @@
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "Peter Van Dyken", email = "pvandyk2@uwo.ca"},
+]
+dependencies = [
+    "pytest-benchmark>=4.0.0",
+    "rsbids==0.0.1a2",
+    "pybids==0.16.3",
+    "bids2table==0.1.0a0",
+    "ancpbids==0.2.2",
+    # bids2table requires pandas v1
+    "pandas<2",
+    "matplotlib",
+    "seaborn",
+    "pytest",
+    "pytest-benchmark",
+    "tabulate",
+]
+requires-python = ">=3.10"
+readme = "README.md"
+license = {text = "MIT"}
+

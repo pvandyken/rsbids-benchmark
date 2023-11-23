@@ -1,0 +1,140 @@
+{
+    "machine_info": {
+        "node": "gra826",
+        "processor": "",
+        "machine": "x86_64",
+        "python_compiler": "GCC 9.3.0",
+        "python_implementation": "CPython",
+        "python_implementation_version": "3.10.2",
+        "python_version": "3.10.2",
+        "python_build": [
+            "main",
+            "Feb  4 2022 19:10:35"
+        ],
+        "release": "3.10.0-1160.88.1.el7.x86_64",
+        "system": "Linux",
+        "cpu": {
+            "vendor_id": "unknown",
+            "hardware": "unknown",
+            "brand": "unknown"
+        }
+    },
+    "commit_info": {
+        "id": "unknown",
+        "time": null,
+        "author_time": null,
+        "dirty": false,
+        "error": "CalledProcessError(128, \"fatal: bad revision 'HEAD'\\n\")",
+        "project": "rsbids-benchmark",
+        "branch": "(unknown)"
+    },
+    "benchmarks": [
+        {
+            "group": null,
+            "name": "test_benchmark_rsbids_indexing_metadata",
+            "fullname": "tests/test_benchmark.py::test_benchmark_rsbids_indexing_metadata",
+            "params": null,
+            "param": null,
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 9.849561145994812,
+                "max": 10.127092009875923,
+                "mean": 9.932522878143937,
+                "stddev": 0.11642414387118087,
+                "rounds": 5,
+                "median": 9.876925143878907,
+                "iqr": 0.1430117841809988,
+                "q1": 9.853964286507107,
+                "q3": 9.996976070688106,
+                "iqr_outliers": 0,
+                "stddev_outliers": 1,
+                "outliers": "1;0",
+                "ld15iqr": 9.849561145994812,
+                "hd15iqr": 10.127092009875923,
+                "ops": 0.10067935531268238,
+                "total": 49.66261439071968,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_benchmark_pybids_indexing_metadata",
+            "fullname": "tests/test_benchmark.py::test_benchmark_pybids_indexing_metadata",
+            "params": null,
+            "param": null,
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 312.33478839695454,
+                "max": 317.0331002199091,
+                "mean": 315.39849193720147,
+                "stddev": 1.7879063389986596,
+                "rounds": 5,
+                "median": 315.93097046390176,
+                "iqr": 1.3938000827329233,
+                "q1": 314.8591862627072,
+                "q3": 316.25298634544015,
+                "iqr_outliers": 1,
+                "stddev_outliers": 1,
+                "outliers": "1;1",
+                "ld15iqr": 315.7006522179581,
+                "hd15iqr": 317.0331002199091,
+                "ops": 0.003170592204984634,
+                "total": 1576.9924596860074,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_benchmark_bids2table_indexing_metadata",
+            "fullname": "tests/test_benchmark.py::test_benchmark_bids2table_indexing_metadata",
+            "params": null,
+            "param": null,
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 104.99201622977853,
+                "max": 107.21034940890968,
+                "mean": 106.11336584398524,
+                "stddev": 0.969259628173455,
+                "rounds": 5,
+                "median": 106.03458039928228,
+                "iqr": 1.7571735054953024,
+                "q1": 105.27041514532175,
+                "q3": 107.02758865081705,
+                "iqr_outliers": 0,
+                "stddev_outliers": 2,
+                "outliers": "2;0",
+                "ld15iqr": 104.99201622977853,
+                "hd15iqr": 107.21034940890968,
+                "ops": 0.009423883523497548,
+                "total": 530.5668292199261,
+                "iterations": 1
+            }
+        }
+    ],
+    "datetime": "2023-11-23T01:19:09.359202",
+    "version": "3.2.3"
+}

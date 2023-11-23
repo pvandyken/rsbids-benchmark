@@ -1,0 +1,175 @@
+{
+    "machine_info": {
+        "node": "gra1190",
+        "processor": "",
+        "machine": "x86_64",
+        "python_compiler": "GCC 9.3.0",
+        "python_implementation": "CPython",
+        "python_implementation_version": "3.10.2",
+        "python_version": "3.10.2",
+        "python_build": [
+            "main",
+            "Feb  4 2022 19:10:35"
+        ],
+        "release": "3.10.0-1160.88.1.el7.x86_64",
+        "system": "Linux",
+        "cpu": {
+            "vendor_id": "unknown",
+            "hardware": "unknown",
+            "brand": "unknown"
+        }
+    },
+    "commit_info": {
+        "id": "unknown",
+        "time": null,
+        "author_time": null,
+        "dirty": false,
+        "error": "CalledProcessError(128, \"fatal: bad revision 'HEAD'\\n\")",
+        "project": "rsbids-benchmark",
+        "branch": "(unknown)"
+    },
+    "benchmarks": [
+        {
+            "group": null,
+            "name": "test_benchmark_rsbids_query",
+            "fullname": "tests/test_benchmark.py::test_benchmark_rsbids_query",
+            "params": null,
+            "param": null,
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.007406543008983135,
+                "max": 0.009136087959632277,
+                "mean": 0.008532313209387564,
+                "stddev": 0.00043463793229669024,
+                "rounds": 62,
+                "median": 0.008645444468129426,
+                "iqr": 0.0005544470623135567,
+                "q1": 0.00832960195839405,
+                "q3": 0.008884049020707607,
+                "iqr_outliers": 1,
+                "stddev_outliers": 19,
+                "outliers": "19;1",
+                "ld15iqr": 0.007529662922024727,
+                "hd15iqr": 0.009136087959632277,
+                "ops": 117.20151094544482,
+                "total": 0.529003418982029,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_benchmark_ancp_query",
+            "fullname": "tests/test_benchmark.py::test_benchmark_ancp_query",
+            "params": null,
+            "param": null,
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 3.3705978570505977,
+                "max": 3.543834050069563,
+                "mean": 3.434378895815462,
+                "stddev": 0.06561717169113378,
+                "rounds": 5,
+                "median": 3.412239745957777,
+                "iqr": 0.0647047467646189,
+                "q1": 3.398910174757475,
+                "q3": 3.463614921522094,
+                "iqr_outliers": 0,
+                "stddev_outliers": 1,
+                "outliers": "1;0",
+                "ld15iqr": 3.3705978570505977,
+                "hd15iqr": 3.543834050069563,
+                "ops": 0.2911734640631604,
+                "total": 17.17189447907731,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_benchmark_pybids_query",
+            "fullname": "tests/test_benchmark.py::test_benchmark_pybids_query",
+            "params": null,
+            "param": null,
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.2315525159938261,
+                "max": 0.2343317719642073,
+                "mean": 0.2325791839743033,
+                "stddev": 0.0010807297125935077,
+                "rounds": 5,
+                "median": 0.2321051269536838,
+                "iqr": 0.0012658467749133706,
+                "q1": 0.23194255196722224,
+                "q3": 0.23320839874213561,
+                "iqr_outliers": 0,
+                "stddev_outliers": 1,
+                "outliers": "1;0",
+                "ld15iqr": 0.2315525159938261,
+                "hd15iqr": 0.2343317719642073,
+                "ops": 4.299610923523086,
+                "total": 1.1628959198715165,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_benchmark_bids2table_query",
+            "fullname": "tests/test_benchmark.py::test_benchmark_bids2table_query",
+            "params": null,
+            "param": null,
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.004927907953970134,
+                "max": 0.005220099003054202,
+                "mean": 0.004988331425314148,
+                "stddev": 9.244582923712809e-05,
+                "rounds": 9,
+                "median": 0.004954734933562577,
+                "iqr": 4.0794286178424954e-05,
+                "q1": 0.004943416715832427,
+                "q3": 0.004984211002010852,
+                "iqr_outliers": 1,
+                "stddev_outliers": 1,
+                "outliers": "1;1",
+                "ld15iqr": 0.004927907953970134,
+                "hd15iqr": 0.005220099003054202,
+                "ops": 200.46783478044932,
+                "total": 0.044894982827827334,
+                "iterations": 1
+            }
+        }
+    ],
+    "datetime": "2023-11-23T15:11:27.313727",
+    "version": "3.2.3"
+}
