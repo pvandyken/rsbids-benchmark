@@ -1,6 +1,6 @@
 # Benchmarks for BIDs indexers
 
-Benchmarks are calculated on the openly available [_HBN EO/EC task_ dataset](https://openneuro.org/datasets/ds004186/versions/2.0.0), consisting of 177,065 files, including metadata. All tasks are performed using a single core (relevant for `bids2table`, which can use multiple cores). Each of the tasks are run 5 times.
+Benchmarks are calculated on the openly available [_HBN EO/EC task_ dataset](https://openneuro.org/datasets/ds004186/versions/2.0.0), consisting of 177,065 files, including metadata. All tasks are performed using a single core (relevant for `bids2table`, which can use multiple cores). Libaries were installed in Python 3.11.2. Each of the tasks are run 5 times.
 
 In the table, units are in parenthesis, results are listed as `mean ± std`.
 
@@ -9,7 +9,7 @@ In the table, units are in parenthesis, results are listed as `mean ± std`.
 | [`ancpbids-bids`](https://github.com/ANCPLabOldenburg/ancp-bids) (v0.2.2) | 30.591 ± 0.354 | nan                        | 39989.483 ± 102.638 | 4294.595 ± 37.299 |
 | [`bids2table`](https://github.com/cmi-dair/bids2table) (v0.1.0a0)         | nan            | 104.239 ± 3.164            | 187.923 ± 1.316     | 7.405 ± 0.058     |
 | [`pybids`](https://github.com/bids-standard/pybids) (v0.16.3)             | 45.796 ± 0.444 | 294.696 ± 5.316            | 399.007 ± 4.140     | 383.517 ± 22.933  |
-| [`rsbids`](https://github.com/pvandyken/rsbids) (v0.0.1a1)                | 1.597 ± 0.033  | 11.222 ± 0.103             | 15.094 ± 0.143      | 13.140 ± 0.910    |
+| [`rsbids`](https://github.com/pvandyken/rsbids) (v0.0.1a3)                | 1.597 ± 0.033  | 11.222 ± 0.103             | 15.094 ± 0.143      | 13.140 ± 0.910    |
 
 ![Benchmarks for rsbids](assets/benchmarks.png)
 
