@@ -4,13 +4,12 @@ Benchmarks are calculated on the openly available [_HBN EO/EC task_ dataset](htt
 
 In the table, units are in parenthesis, results are listed as `mean ± std`.
 
-
-| Tool                                                                      | Indexing (s)   | Indexing w/ Metadata (s)   | Large Query (ms)   | Query (ms)    |
-|:--------------------------------------------------------------------------|:---------------|:---------------------------|:-------------------|:--------------|
-| [`ancpbids-bids`](https://github.com/ANCPLabOldenburg/ancp-bids) (v0.2.2) | 53.582 ± 0.288 | nan                        | 36.945 ± 0.790     | 3.544 ± 0.066 |
-| [`bids2table`](https://github.com/cmi-dair/bids2table) (v0.1.0a0)         | nan            | 107.210 ± 0.969            | 0.146 ± 0.002      | 0.005 ± 0.000 |
-| [`pybids`](https://github.com/bids-standard/pybids) (v0.16.3)             | 80.530 ± 0.402 | 317.033 ± 1.788            | 0.310 ± 0.005      | 0.234 ± 0.001 |
-| [`rsbids`](https://github.com/pvandyken/rsbids) (v0.0.1a1)                | 2.483 ± 0.055  | 10.127 ± 0.116             | 0.009 ± 0.000      | 0.009 ± 0.000 |
+| Tool                                                                      | Indexing (s)   | Indexing w/ Metadata (s)   | Large Query (ms)    | Query (ms)        |
+|:--------------------------------------------------------------------------|:---------------|:---------------------------|:--------------------|:------------------|
+| [`ancpbids-bids`](https://github.com/ANCPLabOldenburg/ancp-bids) (v0.2.2) | 30.591 ± 0.354 | nan                        | 39989.483 ± 102.638 | 4294.595 ± 37.299 |
+| [`bids2table`](https://github.com/cmi-dair/bids2table) (v0.1.0a0)         | nan            | 104.239 ± 3.164            | 187.923 ± 1.316     | 7.405 ± 0.058     |
+| [`pybids`](https://github.com/bids-standard/pybids) (v0.16.3)             | 45.796 ± 0.444 | 294.696 ± 5.316            | 399.007 ± 4.140     | 383.517 ± 22.933  |
+| [`rsbids`](https://github.com/pvandyken/rsbids) (v0.0.1a1)                | 1.597 ± 0.033  | 11.222 ± 0.103             | 15.094 ± 0.143      | 13.140 ± 0.910    |
 
 ![Benchmarks for rsbids](assets/benchmarks.png)
 
